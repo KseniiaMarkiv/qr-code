@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    font-family: poppins;
+    justify-content: center;
+    align-items: center;
+    /* background-color: rgba(22, 24, 44, 255); */
+    /* background-color: rgba(43, 44, 110, 255); */
+    background-color: white;
+    color: rgb(102, 101, 101);
+    height: 100vh;
+}
+
+form {
+    height: 30rem;
+    width: 20rem;
+    background-color: white;
+    color: rgb(102, 101, 101);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+}
+
+form h2.heading {
+    text-align: center;
+    color: rgb(102, 101, 101);
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 10px 0;
+    width: 100%;
+}
+
+form input#website {
+    width: 77%;
+    height: 30px;
+    padding: 0 10px;
+    margin-bottom: 20px;
+    color: rgb(102, 101, 101);
+}
+
+input {
+    font-family: poppins;
+    transition: 0.5s;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(102, 101, 101, 0.6);
+}
+
+::placeholder {
+    color: rgb(102, 101, 101, 0.4);
+    opacity: 1;
+    font-size: 1rem;
+    text-align: right;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: rgb(102, 101, 101, 0.4);
+    /* font-style: italic; */
+    font-size: 1rem;
+    text-align: right;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: rgb(102, 101, 101, 0.4);
+    /* font-style: italic; */
+    font-size: 1rem;
+    text-align: right;
+}
+
+input[type=url] {
+    color: rgb(102, 101, 101);
+}
+
+input[type=url]:focus {
+    border: 0px #ccc;
+    background-color: #e8f0fe;
+    border-radius: 5px;
+}
+
+.generateBtn {
+    padding: 7px;
+    width: 16rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: linear-gradient(to left top, #0083FF, #000049e0);
+    color: white;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.my-link {
+    margin: 0 0 0.5rem 0;
+}
